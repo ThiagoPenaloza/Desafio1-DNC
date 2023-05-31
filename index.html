@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <title>Desafio 1 DNC</title>
+</head>
+<body>
+    
+    <header>
+        <div class="textHeader">
+            <h1 id="titlePage">Tradição em projetos de arquitetura</h1>
+            <h2 id="textPage">Arquitetura residencial e comercial.</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="dataNumbers">
+                <div class="pData">
+                    <p class="pNumber">850</p>
+                    <p class="pText">empreendimentos construídos</p>
+                </div>
+                <div class="pData">
+                    <p class="pNumber">40</p>
+                    <p class="pText">anos de mercado e experiência</p>
+                </div>
+                <div class="pData">
+                    <p class="pNumber">2,000,000</p>
+                    <p class="pText">m² em projetos construídos</p>
+                </div>
+            </div>
+
+            <div class="infoEnterprise">
+                <div id="textCentral">
+                    <h1>
+                        Arquitetos com História e Experiência
+                    </h1>
+                    <p>
+                        Nós realizamos desde 2002 projetos e gerenciamento de obras. 
+                        Com mais de 800 projetos e 2.000.000 de m² construídos, tendo 
+                        como principal proposta transformar em realidade os sonhos de seus 
+                        clientes, criando projetos.
+                    </p>
+                </div>
+                <div id="imageOffice">
+                    
+                    <div class="slides">
+                        <!-- Radio Buttons-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <!-- Fim Radio Buttons-->
+                        
+                        <!-- Slide Images-->
+                        <div class="slide first">
+                            <img class="image" src="img/img1.svg" alt="imagem 1" />
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="img/img2.svg" alt="imagem 2" />
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="img/img3.svg" alt="imagem 3" />
+                        </div>
+                        <!-- Slide Images-->
+
+                        <!-- Navigation auto-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="form">
+                <form action="https://api.sheetmonkey.io/form/uAmeTaxMdCvYSLuLHKAkrC" method="post">
+                    <h1>Conheça mais sobre nossos serviços:</h1>
+                    <div id="inputs">
+                        <input type="text" name="Name" id="formName" placeholder="Nome" style="display: block;" required>
+                        <input type="text" name="Email" id="formEmail" placeholder="Email" style="display: block;" required>
+                        <button type="submit">Fale Conosco</button>
+                    </div>
+                </form>
+            </div>
+
+            </section>
+    </main>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
